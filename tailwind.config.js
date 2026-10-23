@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = { content: ['./app/**/*.{js,ts,jsx,tsx}'], theme: { extend: { colors: { ink:'#222949', panel:'#ffffff', line:'#dce5f4', acid:'#645cf0', muted:'#66718f', paper:'#f5f8ff', sage:'#1ea987', aqua:'#19aeb1', coral:'#ed8296' }, fontFamily: { sans:['DM Sans','sans-serif'], mono:['DM Mono','monospace'], display:['Playfair Display','serif'] }, boxShadow:{ glow:'0 12px 34px rgba(100,92,240,.18)' } } }, plugins: [] }
